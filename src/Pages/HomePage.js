@@ -6,10 +6,18 @@ import Calendar from "../Components/Calendar";
 function HomePage(){
     return (
         <>
+        <div class="row">
+        <div class="col">
             <StudentTable />
+        </div>
+        <div class="col">
             <TeacherTable />
+            </div>
+        </div>
+        <div>
             <Calendar />
-        </>
+        </div>
+</>
     )
 }
 

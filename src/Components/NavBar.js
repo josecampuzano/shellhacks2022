@@ -1,34 +1,23 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import Navbar from 'react-bootstrap/Navbar'
 const NavBar = () => {
-    const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
+    
   return (
-    <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
-
-      <Nav.Item>
-        <Nav.Link eventKey="1" href="/">
-          Home
-        </Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="2" title="Item">
-          NavLink 2 content
-        </Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="3" disabled>
-          NavLink 3 content
-        </Nav.Link>
-      </Nav.Item>
-      <NavDropdown title="Dropdown" id="nav-dropdown">
-        <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
-        <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item eventKey="4.3">Something else here</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
-    </Nav>
+    <container>
+    <Navbar variant="pills" >
+      <Nav  className="mr-auto">
+        <Nav.Link href="/"> Home</Nav.Link>
+        <Nav.Link href="/resources"><p >Resources Page</p></Nav.Link>
+        <Nav.Link href="/meetings"><p >Meeting Center</p></Nav.Link>
+        <NavDropdown className='text-white' title="Communities" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/classroom"><p >Classroom Community</p></NavDropdown.Item>
+          <NavDropdown.Item href="/parents"><p>Parent Community</p></NavDropdown.Item>
+        </NavDropdown>
+      </Nav>
+  </Navbar>
+  </container>
 
 )}
 
