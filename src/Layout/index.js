@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import NavBar from "../Components/NavBar";
 import NotFound from "./NotFound";
 import { Route, Switch } from "react-router-dom";
 import HomePage from "../Pages/HomePage";
@@ -8,21 +7,35 @@ import ResourcesPage from "../Pages/ResourcesPage";
 import MeetingCenterPage from "../Pages/MeetingCenterPage";
 import ClassroomForumPage from "../Pages/ClassroomForumPage";
 import ParentForumPage from "../Pages/ParentForumPage";
+import StudentPage from "../Pages/StudentPage";
+import FieldTripPage from "../Pages/FieldTripPage";
 
 
 function Layout() {
     return (
         <>
+            <div className="row">
             <Header />
-            <div className="container">
+
+            </div>
+
+        <div className="container">
              <Switch>
 
                  <Route exact path="/">
                      <HomePage />
                  </Route>
 
+                 <Route exact path="/fieldtrip-form">
+                     <FieldTripPage />
+                 </Route>
+
                  <Route path="/resources">
                     <ResourcesPage />
+                 </Route>
+
+                 <Route path="/students">
+                    <StudentPage />
                  </Route>
 
                 <Route path="/meetings">
@@ -43,6 +56,7 @@ function Layout() {
 
             </Switch>
         </div>
+
         </>
     );
 }

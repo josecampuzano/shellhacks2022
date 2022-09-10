@@ -57,33 +57,34 @@ class Calendar extends Component {
       {
         id: 1,
         text: "PTA Meeting",
-        start: "2023-03-07T10:30:00",
-        end: "2023-03-07T13:00:00"
+        start: "2022-09-06T10:30:00",
+        end: "2022-09-06T13:00:00",
+        backColor: "#B0C4DE"
       },
       {
         id: 2,
         text: "Meet the Teacher",
-        start: "2023-03-06T09:30:00",
-        end: "2023-03-06T11:30:00",
-        backColor: "#6aa84f"
+        start: "2022-09-05T09:30:00",
+        end: "2022-09-05T11:30:00",
+        backColor: "#B0C4DE"
       },
       {
         id: 3,
         text: "Field trip",
-        start: "2023-03-08T12:00:00",
-        end: "2023-03-08T15:00:00",
-        backColor: "#f1c232"
+        start: "2022-09-08T12:00:00",
+        end: "2022-09-08T15:00:00",
+        backColor: "#B0C4DE"
       },
       {
         id: 4,
         text: "Pep Rally",
-        start: "2023-03-10T11:30:00",
-        end: "2023-03-10T14:30:00",
-        backColor: "#cc4125"
+        start: "2022-09-09T11:30:00",
+        end: "2022-09-09T14:30:00",
+        backColor: "#B0C4DE"
       },
     ];
 
-    const startDate = "2023-03-07";
+    const startDate = "2022-09-08";
 
     this.calendar.update({startDate, events});
 
@@ -94,20 +95,6 @@ class Calendar extends Component {
         <>
         <h2>Upcoming Events:</h2>
       <div style={styles.wrap}>
-        <div style={styles.left}>
-          <DayPilotNavigator
-            selectMode={"week"}
-            showMonths={2}
-            skipMonths={3}
-            startDate={"2023-03-07"}
-            selectionDay={"2023-03-07"}
-            onTimeRangeSelected={ args => {
-              this.calendar.update({
-                startDate: args.day
-              });
-            }}
-          />
-        </div>
         <div style={styles.main}>
           <DayPilotCalendar
             {...this.state}

@@ -1,9 +1,12 @@
 import React from 'react'
+import Polls from '../Components/Polls';
 
 const MeetingCenterPage = () => {
   return (
-    <div>MeetingCenterPage</div>
-  )
+      <>
+      <Polls />
+      </>
+    )
 }
 
 export default MeetingCenterPage;

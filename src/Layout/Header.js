@@ -4,8 +4,12 @@ import Jumbotron from "../Components/Jumbotron";
 function Header() {
   return (
 <>
-<NavBar />
+<div className="row">
 <Jumbotron />
+</div>
+<div className="row">
+<NavBar/>
+</div>
 </>
 )}
 

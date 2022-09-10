@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
+import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-import Navbar from 'react-bootstrap/Navbar'
+
 const NavBar = () => {
-    
+
+
   return (
-    <container>
-    <Navbar variant="pills" >
-      <Nav  className="mr-auto">
+    <div className='sticky-top bg-dark' >
+    <Navbar variant="pills">
+      <Nav  className="mx-auto pt-3 ">
         <Nav.Link href="/"> Home</Nav.Link>
         <Nav.Link href="/resources"><p >Resources Page</p></Nav.Link>
         <Nav.Link href="/meetings"><p >Meeting Center</p></Nav.Link>
@@ -17,7 +19,8 @@ const NavBar = () => {
         </NavDropdown>
       </Nav>
   </Navbar>
-  </container>
+  </div>
+
 
 )}
 
