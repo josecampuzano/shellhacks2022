@@ -9,15 +9,15 @@ import ClassroomForumPage from "../Pages/ClassroomForumPage";
 import ParentForumPage from "../Pages/ParentForumPage";
 import StudentPage from "../Pages/StudentPage";
 import FieldTripPage from "../Pages/FieldTripPage";
-
+import About from "../Pages/About";
 
 function Layout() {
     return (
         <>
-            <div className="row">
+          
             <Header />
 
-            </div>
+
 
         <div className="container">
              <Switch>
@@ -42,6 +42,10 @@ function Layout() {
                      <MeetingCenterPage />
                 </Route>
 
+                <Route path="/about">
+                     <About />
+                 </Route>
+
                 <Route path="/classroom">
                        <ClassroomForumPage />
                  </Route>
@@ -49,6 +53,8 @@ function Layout() {
                 <Route path="/parents">
                      <ParentForumPage />
                  </Route>
+
+
 
                  <Route>
                      <NotFound />

@@ -13,8 +13,8 @@ function TeacherPosts(){
          <p className="card-text">
            {post.body}
          </p>
-         <a href="#" className="btn btn-secondary">
-           Comments
+         <a href={post.path} className="btn btn-secondary">
+           {post.btnText ? post.btnText : "Comments"}
          </a>
        </div>
      </div>

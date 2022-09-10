@@ -1,11 +1,13 @@
 import React from 'react'
+import { useHistory } from "react-router-dom";
 
 function FieldTripForm() {
+const history = useHistory();
 return (
 <>
 <h2> Student Field Trip Permission Form</h2>
 <br/>
-<h4>Please enter all the information. Once submitted, you'll be returned to the home page</h4>
+<p>Please enter all the information. Once submitted, you'll be returned to the home page</p>
 <br/>
 <form>
     <div className="form-row">
@@ -93,25 +95,24 @@ return (
 <h3> Permission and Form Submission </h3>
 </div>
 <br/>
+<p>Make a selection below and enter any important details before submitting the form. Once submitted, you'll be returned to the home page.</p>
+<br/>
+<div className="form-group">
+    <label for="permissionSelect">Preference</label>
+    <select className="form-control" id="permissionSelect">
+      <option>I give permission for my child to attend. They will bring their own lunch with them.</option>
+      <option>I give permission for my child to attend. They will need the school to supply lunch.</option>
+      <option>I do not give permission for my child to attend. They will not be attending the field trip.</option>
+    </select>
+  </div>
+  <div className="form-group">
+    <label for="detailsTextArea">Please enter any important details below. i.e. Allergies, medical conditions or other.</label>
+    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
 
+  <button type="submit" class="btn btn-primary" onClick={() => history.push("/")}>Submit</button>
 
-
-
-  <div className="form-row">
-
-  <div className="form-check form-check-inline">
-  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-  <label className="form-check-label" for="inlineRadio1">1</label>
-</div>
-<div className="form-check form-check-inline">
-  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-  <label className="form-check-label" for="inlineRadio2">2</label>
-</div>
-<div className="form-check form-check-inline">
-  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled/>
-  <label className="form-check-label" for="inlineRadio3">3 (disabled)</label>
-</div>
-</div>
+ 
 </form>
 </>
 )
