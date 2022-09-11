@@ -19,7 +19,7 @@ return (
   <span className="badge badge-primary badge-pill justify-content right">{voteCount2}</span></a>
   <a href="#" className="list-group-item list-group-item-action d-flex justify-content-between align-items-center" onClick={() => setVoteCount3(voteCount3+1)}>Saturday, September 17th
   <span className="badge badge-primary badge-pill justify-content right">{voteCount3}</span></a>
-  <a href="/meetings" class="list-group-item list-group-item-action">Click here to view other polls!</a>
+  <a href="/admin" class="list-group-item list-group-item-action">Click here to view other polls!</a>
 </div>
 </div>
 

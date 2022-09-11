@@ -1,7 +1,9 @@
 Please change whatever you would like to; this is merely a jumping off point
 
 INTRODUCTION
-
+    Hello! We are a team of three! We are Emma, Jose, and Faisal! When we first set off on this project, we wanted
+    to focus on something that is actually affecting people today to see if we coukd put something together that could
+    alleviate that pain point. We landed on parents and their access to their students school life. 
 
 PAIN POINT
     - As a school district, we are responsible for the access our parents have to the involvement
@@ -33,4 +35,14 @@ THE ADMIN HUB
 
 DASHBOARD
     -The website was designed with the parent perspective. That is why we have created the dashboard. A place where 
-    they can find a lot of the most important information they need.  
+    they can find a lot of the most important information they need. Some highlights include: 
+        1. The announcements section to get caught up really quickly
+        2. The quick poll feature allows parents to quickly share their opinion
+        3. Your students grades for when you want to quickly check in on how they are doing 
+
+RESOURCES
+    -The resources page is aimed at giving the community at large the resources and links that they need to 
+    make informed decisions with and for their students. You can find everything from school related resources 
+    school district related ones
+
+

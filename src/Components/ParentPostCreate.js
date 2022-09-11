@@ -29,30 +29,34 @@ function ParentPostCreate({ addPost }) { //component that creates recipe items
 
       return (
         <>
+        <br/>
+        <h2>Create a post:</h2>
+        <br/>
         <form name="create" onSubmit={handleSubmit}>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputAuthor">Name</label>
-      <input type="text" class="form-control" id="inputAuthor" placeholder="First and Last name"  onChange={handleChange} value={formData.author}/>
+      <input name="author" type="text" class="form-control" id="inputAuthor" placeholder="First and Last name"  onChange={handleChange} value={formData.author}/>
     </div>
     <div class="form-group col-md-6">
       <label for="inputDate">Date</label>
-      <input type="date" class="form-control" id="inputDate" onChange={handleChange} value={formData.date} />
+      <input name="date" type="date" class="form-control" id="inputDate" onChange={handleChange} value={formData.date} />
     </div>
   </div>
   <div class="form-group">
     <label for="inputTitle">Title</label>
-    <input type="text" class="form-control" id="inputTitle" placeholder="give your post an eye-catching title!" onChange={handleChange} value={formData.title}/>
+    <input name="title" type="text" class="form-control" id="inputTitle" placeholder="give your post an eye-catching title!" onChange={handleChange} value={formData.title}/>
   </div>
   <div class="form-group">
     <label for="inputBody">Body</label>
-    <input type="textarea" class="form-control" id="inputBody" placeholder="Type your post in here!" onChange={handleChange} value={formData.body}/>
+    <textarea name="body" type="textarea" class="form-control" id="inputBody" placeholder="Type your post in here!" onChange={handleChange} value={formData.body}/>
   </div>
   
     
     
   <button type="submit" class="btn btn-primary">Post</button>
 </form>
+<br/>
  </>
       )
 }

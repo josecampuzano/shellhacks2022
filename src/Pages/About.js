@@ -45,7 +45,7 @@ const About = () => {
     
     <div className='row pb-10'>
         <div className='col mt-3 pb-5'>
-        <div className="card text-white bg-info mb-3">
+        <div className="card text-white bg-warning mb-3">
   <div className="card-body">
     <h5 className="card-title">Dashboard</h5>
     <p className="card-text">The dashboard ensures that busy parents on the go are able to keep up and stay involved if they'd like.Each widget gives you access to important anouncments, polls being hosted by your school board or DOE, student infomation and grades, as well as a calendar of events.   </p>
@@ -55,7 +55,7 @@ const About = () => {
 </div>
             </div>
             <div className='col mt-3 pb-5'>
-        <div className="card text-white bg-info mb-3">
+        <div className="card text-white bg-warning mb-3">
   <div className="card-body">
     <h5 className="card-title">Resources</h5>
     <p className="card-text">The resources page is a collection of reasources that empower parents to learn more! This page is home to school information like directories, transportation routes, free and reduced lunch forms, and much more. Teachers and adminstators may update this page with helpful ediucational resources for students as well.</p>
@@ -65,18 +65,19 @@ const About = () => {
 </div>
             </div>
             <div className='col mt-3 pb-5'>
-        <div className="card text-white bg-info mb-3">
+        <div className="card text-white bg-warning mb-3">
   <div className="card-body">
     <h5 className="card-title">Communities</h5>
     <p className="card-text">The phrase "it takes a village" is no joke! Building communities for your student and especially yourself is so important. Parents who work, or dont have the ability to be at the school often arent ggiven the same community building opportunities. A fourum like ours enables parents to connect with teacher and other parents. </p>
     <a href="/classroom" className="card-link">Go to Classroom Community</a>
     <br/>
+    <hr/>
     <a href="/parents" className="card-link">Go to Parent Community</a>
   </div>
 </div>
             </div>
             <div className='col mt-3 pb-5'>
-        <div className="card text-white bg-info mb-3">
+        <div className="card text-white bg-warning mb-3">
   <div className="card-body">
     <h5 className="card-title">Admin Hub</h5>
     <p className="card-text">The dashboard ensures that busy parents on the go are able to keep up and stay involved if they'd like.Each widget gives you access to important anouncments, polls being hosted by your school board or DOE, student infomation and grades, as well as a calendar of events.   </p>
