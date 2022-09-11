@@ -4,6 +4,12 @@ import React from 'react'
 const ResourcesPage = () => {
   return (
 <>
+<div>
+        <h2 > Resources </h2>
+        <h6 className='text-muted'>Helpful articles and documentation for quick reference.</h6>
+        <hr/>
+    </div>
+
   <div className="card mb-5">
   <div className="card-header">
     Riverdale Elementary Resources

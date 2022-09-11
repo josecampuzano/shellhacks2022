@@ -1,0 +1,36 @@
+Please change whatever you would like to; this is merely a jumping off point
+
+INTRODUCTION
+
+
+PAIN POINT
+    - As a school district, we are responsible for the access our parents have to the involvement
+    what happens on our camppuses. We understand the reality of some of our parents who work two 
+    maybe even three jobs and who cannot afford the time to come out to campus to tell us what they
+    think of the decisions we are making. 
+    -That is why we built this website. At the core of this website is accessibility for our parents 
+    we hope that parents can log onto this website after a long day and find just the right information
+    they need
+    - Lastly we know that some parents cannot always voice their opinions because quite frankly, they are 
+    busy with work. Let us show you how we solved some of these pressing issues to give the information 
+    and the voice back to our parents  
+
+
+THE ADMIN HUB
+    -The admin hub was designed to empower parents to share their perspective on some of the questions the
+    school and the community are trying to understand. 
+    
+    VOTING FEATURE
+        -From understanding what day works best for most of our parents to make it out to Teach/Parent Night to 
+        what food the community wants to see at the school fair, our voting feature allows our parents to quickly 
+        share their vote with us so we can make informed decisions
+
+    SCHOOL MEETING SUMMARIES
+        -We understand how important transparency is in building a trusting relationship with our community. We 
+        want our community to see front and center that we always put student well being and student success at 
+        the center of the decisions we make  
+
+
+DASHBOARD
+    -The website was designed with the parent perspective. That is why we have created the dashboard. A place where 
+    they can find a lot of the most important information they need.  

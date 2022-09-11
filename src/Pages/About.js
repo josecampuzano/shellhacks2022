@@ -4,8 +4,10 @@ import React from 'react'
 const About = () => {
   return (
 <>
-    <div className='row justify-content-center'>
-        <h2>About</h2>
+<div>
+        <h2 > About </h2>
+        <h6 className='text-muted'>Everything you need to know about Parent Connect </h6>
+        <hr/>
     </div>
     <div className='row mt-5'>
         <div className="card" >

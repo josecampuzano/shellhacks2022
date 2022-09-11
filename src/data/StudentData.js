@@ -6,7 +6,7 @@ const StudentData =
         'name': 'John Gilbert',
         'grade': '2nd',
         'id': 563,
-        'teacher': 'Robert Kardashian'
+        'teacher': 'Mx. Night'
     }
 ]
 

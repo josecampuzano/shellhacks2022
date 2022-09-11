@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from "react";
 import initialParentPosts from "../data/ParentPostData";
+import ParentPostCreate from "./ParentPostCreate";
 
 function ParentPosts(){
     const [parentPosts, setParentPosts] = useState(initialParentPosts)
+
+    const addPost = (data) => {
+      setParentPosts([...initialParentPosts, data]); // If we need to add a recipe, this function uses setRecipes to alter the state to an array where we "spread" exisiting recipes, then add the data put into the callback function.
+    };
 
 
     const posts = parentPosts.map((post, index) => (
@@ -23,6 +28,7 @@ function ParentPosts(){
     return (
         <>
           {posts}
+          <ParentPostCreate addPost={addPost} />
         </>
       );
 }
