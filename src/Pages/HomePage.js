@@ -6,6 +6,7 @@ import Announcements from "../Components/Announcements";
 import FieldTripForm from "../Components/FieldTripForm";
 import WelcomeCard from "../Components/WelcomeCard";
 import CoffeePoll from "../Components/CoffeePoll";
+import ReportCard from "../Components/ReportCard";
 function HomePage(){
     return (
         <>
@@ -20,6 +21,8 @@ function HomePage(){
                 <Announcements />
                 <br/>
                 <CoffeePoll />
+
+                <ReportCard />
             </div>
 
         </div>

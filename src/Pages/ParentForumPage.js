@@ -1,8 +1,9 @@
 import React from 'react'
+import ParentPosts from "../Components/ParentPosts";
 
 const ParentForumPage = () => {
   return (
-    <div>ParentForumPage</div>
+    <ParentPosts />
   )
 }
 

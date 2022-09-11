@@ -4,7 +4,7 @@ import Jumbotron from "../Components/Jumbotron";
 function Header() {
   return (
 <>
-<div className='mb-3'>
+<div className='mb-3 app-header'>
 <Jumbotron />
 
 <NavBar/>

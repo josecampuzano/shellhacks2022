@@ -12,12 +12,13 @@ const NavBar = () => {
       <Nav  className="mx-auto pt-3 ">
         <Nav.Link href="/"> Home</Nav.Link>
         <Nav.Link href="/resources"><p >Resources Page</p></Nav.Link>
-        <Nav.Link href="/meetings"><p >Meeting Center</p></Nav.Link>
-        <Nav.Link href="/about"><p >About</p></Nav.Link>
+        <Nav.Link href="/admin"><p >Admin Hub</p></Nav.Link>
+
         <NavDropdown className='text-white' title="Communities" id="basic-nav-dropdown">
           <NavDropdown.Item href="/classroom"><p >Classroom Community</p></NavDropdown.Item>
           <NavDropdown.Item href="/parents"><p>Parent Community</p></NavDropdown.Item>
         </NavDropdown>
+        <Nav.Link href="/about"><p >About</p></Nav.Link>
       </Nav>
   </Navbar>
   </div>

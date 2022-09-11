@@ -38,7 +38,7 @@ function Layout() {
                     <StudentPage />
                  </Route>
 
-                <Route path="/meetings">
+                <Route path="/admin">
                      <MeetingCenterPage />
                 </Route>
 
