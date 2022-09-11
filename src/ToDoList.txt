@@ -1,0 +1,7 @@
+- Make the script for the video 
+- Make the readMe file 
+- Set up the DevPost; we need to look through the instructions
+- Determine what sponsor challenges we are submitting into 
+- Record the video
+- Jose registers for the DevPost 
+- Faisal registers for the DevPost

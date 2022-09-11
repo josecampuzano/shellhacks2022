@@ -37,7 +37,7 @@ function MeetingUpdates(){
         <div className="row">
 <div class="card col" >
   <img src="https://blog.idrsolutions.com/wp-content/uploads/2020/10/pdf-1.png" class="card-img-top" alt="..."></img>
-  <div class="card-body">
+  <div className="card-body">
     <h5 class="card-title">November</h5>
     <p class="card-text">Find the summary and the minutes to our Monthly Administration Meetings!</p>
     <a href="#" class="btn btn-warning">View PDF</a>

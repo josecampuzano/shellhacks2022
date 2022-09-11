@@ -8,7 +8,7 @@ const initialTeacherPosts =
       "title": "Field Trip to the Zoo",
       "body": "Hello Parents! We are so excited about our upcoming trip to the Zoo, the class cannot stop talking about it! We want everyone to be able to experience this awersome opportunity and need your help to do that! Please fill out this Permission Slip Form as soon as possible. We will be sending a reminder closer to the event. ",
       "path": "fieldtrip-form",
-      "btnText": "Field Trip Form"
+      "btnText": "Field Trip Form",
     },
     {
       "id": 2,

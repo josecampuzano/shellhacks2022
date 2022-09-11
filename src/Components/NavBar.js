@@ -10,8 +10,8 @@ const NavBar = () => {
     <div className='sticky-top bg-white' >
     <Navbar variant="pills">
       <Nav  className="mx-auto pt-3 ">
-        <Nav.Link href="/"> Home</Nav.Link>
-        <Nav.Link href="/resources"><p >Resources Page</p></Nav.Link>
+        <Nav.Link href="/"> Dashboard</Nav.Link>
+        <Nav.Link href="/resources"><p >Resources</p></Nav.Link>
         <Nav.Link href="/admin"><p >Admin Hub</p></Nav.Link>
 
         <NavDropdown className='text-white' title="Communities" id="basic-nav-dropdown">

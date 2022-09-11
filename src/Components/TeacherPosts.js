@@ -4,6 +4,11 @@ import initialTeacherPosts from "../data/TeacherPostData";
 function TeacherPosts(){
     const [teacherPosts, setTeacherPosts] = useState(initialTeacherPosts)
 
+    function extraButton(buttonText, buttonPath) {
+      return (
+        <a href={buttonPath}className="btn btn-secondary">{buttonText}</a>
+      )
+    }
 
     const posts = teacherPosts.map((post, index) => (
         <div key={post.id}className="card">
@@ -13,9 +18,9 @@ function TeacherPosts(){
          <p className="card-text">
            {post.body}
          </p>
-         <a href={post.path} className="btn btn-secondary">
-           {post.btnText ? post.btnText : "Comments"}
-         </a>
+         <button  className="btn btn-primary">Comments</button>
+         {post.path ? extraButton(post.btnText, post.path) : null}
+         
        </div>
      </div>
     ))
